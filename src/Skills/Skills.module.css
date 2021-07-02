@@ -12,7 +12,7 @@
 }
 
 .title {
-    background-color: #eeeef5;
+    background-color: #eea81d;
 }
 
 .skills {
@@ -21,5 +21,4 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
