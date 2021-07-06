@@ -1,0 +1,84 @@
+.button {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    padding: 15px 30px;
+    transition: 0.2s;
+    width: 200px;
+    text-align: center;
+    background: rgba(33, 150, 243, 0.28);
+}
+
+.button__line {
+    position: absolute;
+    display: block;
+}
+
+.button__line_top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.button:hover .button__line_top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button__line_bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+.button:hover .button__line_bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button__line_left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #2196f3);
+}
+
+.button:hover .button__line_left {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+.button__line_right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.button:hover .button__line_right {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+.button:hover {
+    transition: 1s;
+    transition-delay: 0.25s;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    color: #333;
+    background-color: #2196f3;
+}

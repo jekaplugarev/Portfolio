@@ -1,0 +1,31 @@
+.footerBlock {
+    height: 20vh;
+    background-color: rgba(186, 108, 208, 0.59);
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.socialLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 25px;
+    min-width: 30%;
+}
+
+.socialLink {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+}
+
+.copyRight {
+    font-size: 10px;
+}
