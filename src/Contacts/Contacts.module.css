@@ -26,5 +26,6 @@ input {
 
 textarea {
     resize: none;
+    font-family: inherit;
     font-size: 16px;
 }

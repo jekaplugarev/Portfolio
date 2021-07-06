@@ -11,7 +11,7 @@ export const Contacts = () => {
                 <form>
                     <input type="text"/>
                     <input type="text"/>
-                    <textarea rows={3}/>
+                    <textarea rows={4}/>
                 </form>
                 <button className={styleContainer.btn}>
                     Send
