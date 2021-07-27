@@ -11,7 +11,7 @@ export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h3>Eugene Plugarev</h3>
+                <h3>Evgeny Plugarev</h3>
                 <div className={style.socialLinks}>
                     <a href="#">
                         <img src={telegram} alt="Telegram" className={style.socialLink}/>
