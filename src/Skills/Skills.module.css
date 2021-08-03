@@ -1,6 +1,8 @@
 .skillsBlock {
-    min-height: 100vh;
-    background-color: rgba(171, 235, 153, 0.5);
+    /*min-height: 100vh;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #343a40;
     display: flex;
     align-items: center;
 }
@@ -11,12 +13,6 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: #eea81d;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .skills {
     border: 1px solid;
     width: 100%;
@@ -24,5 +20,18 @@
     justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 10px;
-    row-gap: 10px
+    row-gap: 10px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1092px) {
+    .skills {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1642px) {
+    .skills {
+        justify-content: space-evenly;
+    }
 }

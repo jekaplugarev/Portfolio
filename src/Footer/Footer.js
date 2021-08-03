@@ -2,9 +2,9 @@ import React from 'react';
 import style from './Footer.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import telegram from '../common/img/telegram.png'
-import whatsapp from '../common/img/free-icon-whatsapp-1384095.png'
-import linkedin from '../common/img/free-icon-linkedin-logo-49068.png'
-import instagram from '../common/img/free-icon-instagram-social-network-logo-of-photo-camera-48898.png'
+import whatsapp from '../common/img/whatsapp.png'
+import linkedin from '../common/img/linkedin.png'
+import instagram from '../common/img/instagram.png'
 
 
 export const Footer = () => {
