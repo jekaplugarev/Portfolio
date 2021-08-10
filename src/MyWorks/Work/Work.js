@@ -1,18 +1,17 @@
 import React from 'react';
 import style from './Work.module.css';
-import styleContainer from '../../common/styles/Container.module.css';
 
 export const Work = (props) => {
     return (
         <div className={style.work}>
-            <div className={style.imgContainer}>
-                <button className={styleContainer.btn}>
+            <div className={style.imgContainer} style={props.style}>
+                <a className={style.showBtn} href={'#'}>
                     Show
-                </button>
+                </a>
             </div>
             <div className={style.workDescription}>
-                <h3>{props.title}</h3>
-                <p>{props.description}</p>
+                <h3 className={style.projectTitle}>{props.title}</h3>
+                <p className={style.description}>{props.description}</p>
             </div>
         </div>
     )

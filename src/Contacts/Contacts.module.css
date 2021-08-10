@@ -3,6 +3,8 @@
     background-color: rgba(245, 220, 98, 0.59);
     display: flex;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contactsContainer {
@@ -16,6 +18,7 @@
     flex-direction: column;
     min-width: 50%;
     row-gap: 10px;
+    margin-top: 30px;
 }
 
 .contactsInput {
@@ -28,4 +31,8 @@
     resize: none;
     font-family: inherit;
     font-size: 16px;
+}
+
+.btn {
+    margin-top: 30px;
 }
