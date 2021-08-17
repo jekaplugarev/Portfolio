@@ -1,0 +1,7 @@
+@import './variables';
+
+@mixin text($fontSize, $lineHeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+}
